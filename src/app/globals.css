@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    @apply h-full;
+  }
+}
+
+.react-flow__node {
+  @apply select-none;
+}
+
+.react-flow__handle {
+  @apply w-3 h-3;
+}
+
+.react-flow__handle-right {
+  @apply right-[-8px];
+}
+
+.react-flow__handle-left {
+  @apply left-[-8px];
+}
